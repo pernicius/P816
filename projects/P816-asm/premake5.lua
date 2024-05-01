@@ -49,3 +49,9 @@ project "P816-asm"
 
 
 	filter {}
+
+
+	postbuildmessage "Copying assets into the target folder..."
+	postbuildcommands {
+		"{COPYDIR} \"%{prj.location}assets\" \"" .. dir_bin .. dir_group .. dir_config .. "\""
+	}

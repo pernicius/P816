@@ -73,3 +73,6 @@ workspace "P816 Workspace"
 	group "Vendor"
 		dir_group = "vendor/"
 		include("vendor/")
+
+	group ""
+
