@@ -1,14 +1,17 @@
 -------------------------------------------------------------------------------
---  External Dependancies
+--  External Dependancies (headers)
 -------------------------------------------------------------------------------
 
---function VendorCxxopts()
---	includedirs "%{wks.location}/vendor/cxxopts/include"
---	defines ""
---end
+function VendorCxxopts()
+	includedirs "%{wks.location}/vendor/cxxopts/include"
+	defines ""
+end
 
+-------------------------------------------------------------------------------
+--  External Dependancies (libs)
+-------------------------------------------------------------------------------
 
---function VendorColoredCout()
---	includedirs "%{wks.location}/vendor/colored-cout"
---	links "vendor.colored-cout"
---end
+function VendorColoredCout()
+	includedirs "%{wks.location}/vendor/colored-cout"
+	links "vendor.colored-cout"
+end

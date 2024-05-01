@@ -14,8 +14,8 @@ project "P816-asm"
 	pchsource "source/pch.cpp"
 
 	-- Libraries
---	VendorCxxopts{}
---	VendorColoredCout{}
+	VendorCxxopts{}
+	VendorColoredCout{}
 
 
 	includedirs {
