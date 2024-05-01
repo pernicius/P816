@@ -3,7 +3,7 @@
 -------------------------------------------------------------------------------
 
 function VendorCxxopts()
-	includedirs "%{wks.location}/vendor/cxxopts/include"
+	includedirs "%{wks.location}/vendor/headers/cxxopts/include"
 	defines ""
 end
 
@@ -12,6 +12,6 @@ end
 -------------------------------------------------------------------------------
 
 function VendorColoredCout()
-	includedirs "%{wks.location}/vendor/colored-cout"
+	includedirs "%{wks.location}/vendor/libs/colored-cout"
 	links "vendor.colored-cout"
 end
